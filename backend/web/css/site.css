@@ -1,0 +1,287 @@
+html,
+body {
+	height: 100%;
+}
+
+.wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -60px;
+	padding: 0 0 60px;
+}
+
+.wrap > .container {
+	padding: 70px 15px 20px;
+}
+
+.footer {
+	height: 60px;
+	background-color: #f5f5f5;
+	border-top: 1px solid #ddd;
+	padding-top: 20px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+}
+
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+.not-set {
+	color: #c55;
+	font-style: italic;
+}
+
+
+.grid-view th {
+	white-space: nowrap;
+}
+
+.hint-block {
+	display: block;
+	margin-top: 5px;
+	color: #999;
+}
+
+.error-summary {
+	color: #a94442;
+	background: #fdf7f7;
+	border-left: 3px solid #eed3d7;
+	padding: 10px 20px;
+	margin: 0 0 15px 0;
+}
+
+.login-box, .register-box {
+	width: 420px !important;
+}
+
+.grid_tool {
+	text-align: right;
+	margin-right: 10px;
+}
+
+.dataTable {
+	margin-top: 5px;
+}
+
+.action-column {
+	white-space: nowrap;
+	width: 1%;
+}
+
+.card_aside {
+	/* float: left; */
+	margin-bottom: 0;
+	margin-right: 10px;
+	width: 160px;
+	margin-top: 2px;
+	background-color: transparent;
+}
+
+.card_aside img, .kv-attribute img {
+	max-width: 100%;
+}
+
+/*td.card_td div.kv_attribute {
+    text-align: right;
+}*/
+
+td.card_td div.file-input {
+	width: 400px;
+}
+
+td.card_td div.file-input {
+	width: 400px;
+}
+
+td.card_td .file-preview-thumbnails img {
+	width: 160px;
+}
+
+td.card_td .file-preview-frame {
+	box-shadow: none;
+	float: none;
+	height: auto;
+}
+
+.case-studies-view {
+	overflow: hidden;
+}
+
+.content-header > .breadcrumb {
+	font-size: 14px !important;
+}
+
+.breadcrumb > li + li::before {
+	color: #8b8b8b;
+}
+
+.content-header > .breadcrumb > li > a {
+	/*    font-weight: bold; */
+}
+
+.content-header > .breadcrumb > li > a:hover {
+	color: black;
+}
+
+form th.required:after, form > div.required > label:after {
+	content: " * ";
+	color: #b94a48;
+	white-space: nowrap !important;
+}
+
+.card_td-image {
+	background-color: transparent;
+	border: 1px solid #cecece;
+	border-radius: 4px;
+	box-shadow: 0 0 10px #d1d1d1;
+	margin-bottom: 10px;
+	padding: 4px;
+	vertical-align: top;
+	width: 210px;
+	display: inline-block;
+}
+
+.panel-footer {
+	padding-bottom: 30px !important;
+}
+
+.margin-right5 {
+	margin-right: 5px
+}
+
+a.toggle-column .glyphicon-remove {
+	color: #dd4b39;
+}
+
+.green, a.toggle-column .glyphicon-ok, a.toggle-column.fa-check-square {
+	color: green;
+}
+
+.logotitle {
+	display: block;
+	float: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+	padding: 0 15px;
+	text-align: center;
+	transition: width 0.3s ease-in-out 0s;
+	color: #fff;
+}
+
+.kv-expand-icon .glyphicon {
+	color: #3c8dbc;
+}
+
+.emptygridheader {
+	padding-left: 15px !important;
+	padding-bottom: 15px !important;
+}
+
+.categorieslist label {
+	/*  float: left	 */
+	font-weight: normal;
+}
+
+code.powershell {
+	white-space: pre-wrap !important;
+}
+
+.scripts_summary label {
+	font-weight: normal
+}
+
+.scripts_summary textarea {
+	width: 100%;
+}
+
+.scripts_summary div {
+	padding-bottom: 15px;
+}
+
+.summary_info {
+	font-size: 90%;
+	padding-bottom: 5px;
+}
+
+div.mce-fullscreen {
+	z-index: 10000 !important;
+}
+
+.email-body .kv-attribute {
+	white-space: pre-line;
+}
+
+.border-bottom0 {
+	border-bottom: 0px !important;
+}
+
+.kv-merged-header {
+	border-bottom: 0 !important;
+}
+
+.red, .treeview-menu .active span {
+	color: red;
+}
+
+a, .page-link, .kv-expand-icon {
+	color: #3c8dbc;
+}
+
+.bg-primary, .btn-primary {
+	background-color: #62a5df !important;
+	border-color: #62a5df;
+}
+
+.bg-info {
+	background-color: #d9edf7 !important;
+	border-color: #d9edf7;
+}
+
+.table-info, .table-info > td, .table-info > th {
+	background-color: #dee2e6 !important;
+	border-color: #8fc0eb;
+}
+
+/* AdminLte .popover style set display property to block, it cause a bug in Kartik EditableColumn in script comments */
+.popover {
+	display: none;
+}
+
+[class*=sidebar] .nav-sidebar > .nav-item > .nav-treeview {
+	background: #4a525c;
+}
+
+.btn-default {
+	border-color: #ddd;
+}
+
+.card-header .kv-action-btn, .card-footer .kv-action-btn {
+	color: #31708f;
+}
+
+.content-header h1 {
+	margin: 0;
+	font-size: 30px;
+}
+
+.card .border-primary {
+	border-color: #62a5df !important;
+}
+
+.table > :not(:first-child) {
+	border-top: 2px solid #abadb0;
+}
+
+fieldset.js-item_row {
+	background: #f2f1f3;
+	margin-bottom: 20px;
+}
