@@ -16,9 +16,11 @@ Installation notes:
 	127.0.0.1 be.test.com 		
 	
 6.Now you can check backend entering http://be.test.com:8888 in your browser.
+  
   Admin credentials: 
 	login:		admin@test.com
 	password:	123456 
+  
   Manager credentials: 
 	login:		manager@test.com
 	password:	123456 
