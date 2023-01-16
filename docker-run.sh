@@ -57,10 +57,10 @@ if [ "$MYSQL_HOST" != "" ] && [ "$MYSQL_DATABASE" != "" ] && [ $MYSQL_USER != ""
 
 			# Schema
 			echo -n "Create tables..."
-			mysql --defaults-extra-file=$CREDS -h"${MYSQL_HOST}" ${MYSQL_DATABASE} < $DOC_ROOT/common/data/schema.mysql.sql
+			mysql --defaults-extra-file=$CREDS -h"${MYSQL_HOST}" ${MYSQL_DATABASE}  --default-character-set=utf8 < $DOC_ROOT/common/data/schema.mysql.sql
 			# Base data
 			echo -n "Create initial data..."
-			mysql --defaults-extra-file=$CREDS -h"${MYSQL_HOST}" ${MYSQL_DATABASE} < $DOC_ROOT/common/data/base_data.mysql.sql
+			mysql --defaults-extra-file=$CREDS -h"${MYSQL_HOST}" ${MYSQL_DATABASE}  --default-character-set=utf8  < $DOC_ROOT/common/data/base_data.mysql.sql
 			echo " done."
 
 		else
